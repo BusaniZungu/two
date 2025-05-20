@@ -1,0 +1,21 @@
+body {
+  background-color: red;
+}
+
+div#left {
+  background-color: antiquewhite;
+  height: 90px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  background-image: url("https://api.dicebear.com/9.x/pixel-art/svg?seed=busani");
+}
+div#right {
+  background-color: blue;
+}
+main {
+  width: 60vw;
+  margin: 100px auto 0 auto;
+  display: grid;
+  grid-template-columns: 90px 600px;
+  gap: 1rem;
+}
