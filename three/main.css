@@ -1,0 +1,15 @@
+body {
+  background-color: rgb #fff (255, 255, 255);
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 1.6s ease;
+}
+
+body.dark {
+  background-color: #000;
+  color: #fff;
+}
+main {
+  height: 100vh;
+  grid: 100px;
+}

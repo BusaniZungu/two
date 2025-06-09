@@ -1,34 +1,4 @@
 body {
-  background-color: green;
-}
-
-div#avatar {
-  background-color: antiquewhite;
-  height: 90px;
-  aspect-ratio: 1;
-  border-radius: 100%;
-  background-image: url(images/film\ production/);
-  background-position: center;
-  background-size: cover;
-  border: 0.5rem solid white;
-}
-div#bio {
-  background-color: rgba(111, 0, 255, 0);
-}
-main {
-  width: 90vw;
-  margin: 100px auto 0 auto;
-  display: grid;
-  grid-template-columns: 90px 600px;
-  gap: 2rem;
-}
-
-div ul li a svg {
-  display: flex;
-  list-style: none;
-}
-
-body {
   background-color: rgb(6, 170, 6);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -101,11 +71,6 @@ img:hover {
 
 img {
   opacity: 70%;
-}
-
-div img {
-  border-radius: 0;
-  width: 200px;
 }
 
 div#bio ul {
